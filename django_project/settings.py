@@ -34,7 +34,7 @@ SECRET_KEY = env.str("SECRET_KEY")
 DEBUG = env.bool("DEBUG", default=True)
 
 ALLOWED_HOSTS = [
-    ".heroku.com",
+    ".herokuapp.com",
     "localhost",
     "127.0.0.1",
 ]
